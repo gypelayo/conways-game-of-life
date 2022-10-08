@@ -103,7 +103,7 @@ public class Matrix {
     }
 
     /**
-     * For debugging purposes
+     * For debugging prints a matrix with the number of neighbours alive per cell purposes
      */
     private void printNeighbourMatrix() {
         for (int row = 0; row < this.content.length; row++) {
