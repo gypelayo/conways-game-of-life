@@ -15,10 +15,10 @@ public class Matrix {
 
         for (int row = 0; row < this.content.length; row++) {
             for (int column = 0; column < this.content[0].length; column++) {
-                if ((aliveNeighbours(this.content, row, column) < 2 || aliveNeighbours(this.content, row, column) > 3) && this.content[row][column].equals("X")) {
+                if ((aliveNeighbours(this.content, row, column) < 2 || aliveNeighbours(this.content, row, column) > 3) && this.content[row][column] == "X") {
                     temp[row][column] = " ";
                 }
-                if (aliveNeighbours(this.content, row, column) == 3 && this.content[row][column].equals(" ")) {
+                if (aliveNeighbours(this.content, row, column) == 3 && this.content[row][column] == " ") {
                     temp[row][column] = "X";
                 }
             }
