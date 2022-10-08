@@ -25,12 +25,6 @@ public class Main {
 
             */
 
-    public static String[][] checkMatrix = {
-            {" ", " ", "X", " ", " "},
-            {" ", " ", "X", " ", " "},
-            {" ", " ", "X", " ", " "},
-    };
-
     public static String[][] matrix = {
             {" ", " ", " ", " ", " "},
             {" ", "X", "X", "X", " "},
